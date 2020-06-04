@@ -1,0 +1,17 @@
+CREATE TABLE servidor (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	numero VARCHAR(100) NOT NULL,
+	up VARCHAR(100) NOT NULL,
+	risp VARCHAR(100) NOT NULL,
+	nome_servidor VARCHAR(100) NOT NULL,
+	masp VARCHAR(100) NOT NULL,
+	cargo VARCHAR(100) NOT NULL,
+	data_da_confirmacao VARCHAR(100) NOT NULL,
+	status_servidor VARCHAR(100) NOT NULL,
+	tipo_de_teste VARCHAR(100) NOT NULL,
+	dias_de_afastamento VARCHAR(100) NOT NULL,
+	retorno_previsto VARCHAR(100) NOT NULL,
+	exame_recebido VARCHAR(100) NOT NULL,
+	cidade_moradia VARCHAR(100) NOT NULL,
+	data_criacao DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
