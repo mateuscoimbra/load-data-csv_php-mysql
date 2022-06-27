@@ -1,6 +1,5 @@
 # load-data-csv_php-mysql &middot; [![Build Status] [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
-> Additional information or tag line
-Generate an interface table by importing csv file and inserting it into the mysql database with php
+> Generate an interface table by importing csv file and inserting it into the mysql database with php
 
 ## Installing / Getting started
 
@@ -28,9 +27,7 @@ Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
 ```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
+git clone https://github.com/mateuscoimbra/load-data-csv_php-mysql.git
 ```
 
 And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
